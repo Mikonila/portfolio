@@ -1,41 +1,41 @@
-# Valerya's AI Customer Success Hub
+# Valerya's Personal Assistant
 
-Интерактивный AI-ассистент для поддержки клиентов с адаптацией под стиль пользователя и аналитикой беседы.
+An interactive AI assistant for customer support with user-adaptive analytics and a modern UI.
 
-## Особенности
-- Современный UI (Streamlit + кастомный CSS)
-- Адаптация под стиль общения пользователя
-- Аналитика вовлечённости, тем и глубины беседы
-- Визуализация метрик и экспорт аналитики
-- Интеграция с OpenAI (gpt-4o-mini)
-- Модульная архитектура и тесты
+## Features
+- Modern UI (Streamlit + custom CSS)
+- Adapts to user's communication style
+- Engagement, topic, and conversation depth analytics
+- Visualization of metrics and analytics export
+- OpenAI integration (gpt-4o-mini)
+- Modular architecture and basic tests
 
-## Быстрый старт
-1. Клонируйте репозиторий и перейдите в папку проекта
-2. Установите зависимости:
+## Quick Start
+1. Clone the repository and navigate to the project folder
+2. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Установите свой OpenAI API ключ в `.streamlit/secrets.toml` или в `config.py`:
-   ```toml
-   [general]
-   OPENAI_API_KEY = "your-key-here"
+3. Set your OpenAI API key in `.env`:
    ```
-4. Запустите приложение:
+   OPENAI_API_KEY=your-key-here
+   OPENAI_MODEL=gpt-4o-mini
+   ```
+4. Run the app:
    ```
    streamlit run main.py
    ```
 
-## Структура проекта
-- `main.py` — точка входа, UI, обработка сообщений
-- `analyzer.py` — анализ тем, стиля, вовлечённости
-- `ai_client.py` — работа с OpenAI
-- `ui.py` — визуализация аналитики и сообщений
-- `config.py` — настройки и ключи
-- `test_analyzer.py` — базовые тесты
+## Project Structure
+- `main.py` — entry point, UI, chat logic
+- `analyzer.py` — topic, style, and engagement analysis
+- `ai_client.py` — OpenAI API integration
+- `ui.py` — analytics and chat visualization
+- `test_analyzer.py` — basic tests
+- `.gitignore` — excludes secrets, venv, and temp files
 
-## Скриншоты
-(Добавьте сюда скриншоты интерфейса)
+## Screenshots
+(Add your interface screenshots here)
 
-## Лицензия
+## License
 MIT 
