@@ -35,7 +35,7 @@ An interactive AI assistant for customer support with user-adaptive analytics an
 - `.gitignore` — excludes secrets, venv, and temp files
 
 ## Screenshots
-(Add your interface screenshots here)
+![Main interface](screenshot.png)
 
 ## License
 MIT 
