@@ -2,6 +2,9 @@
 
 An interactive AI assistant for customer support with user-adaptive analytics and a modern UI.
 
+**You can try the app online (no API key needed):**
+[https://valeryaspersonalassistant.streamlit.app](https://valeryaspersonalassistant.streamlit.app)
+
 ## Features
 - Modern UI (Streamlit + custom CSS)
 - Adapts to user's communication style
@@ -11,6 +14,10 @@ An interactive AI assistant for customer support with user-adaptive analytics an
 - Modular architecture and basic tests
 
 ## Quick Start
+You can test the app online without an API key:
+[https://valeryaspersonalassistant.streamlit.app](https://valeryaspersonalassistant.streamlit.app)
+
+Or run locally:
 1. Clone the repository and navigate to the project folder
 2. Install dependencies:
    ```
@@ -35,6 +42,7 @@ An interactive AI assistant for customer support with user-adaptive analytics an
 - `.gitignore` — excludes secrets, venv, and temp files
 
 ## Screenshots
+
 ![Main interface](screenshot.png)
 
 ## License
