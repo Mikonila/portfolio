@@ -2,8 +2,6 @@
 
 An interactive AI assistant for customer support with user-adaptive analytics and a modern UI.
 
-**You can try the app online (no API key needed):**
-[https://valeryaspersonalassistant.streamlit.app](https://valeryaspersonalassistant.streamlit.app)
 
 ## Features
 - Modern UI (Streamlit + custom CSS)
@@ -14,7 +12,7 @@ An interactive AI assistant for customer support with user-adaptive analytics an
 - Modular architecture and basic tests
 
 ## Quick Start
-You can test the app online without an API key:
+You can test the app online without an API key (you won't get answers from GPT):
 [https://valeryaspersonalassistant.streamlit.app](https://valeryaspersonalassistant.streamlit.app)
 
 Or run locally:
